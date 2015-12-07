@@ -51,6 +51,6 @@ int main()
 		cout << "-1";
 	}
 	
-	system("pause");
+	// system("pause");
 	return 0;
 }

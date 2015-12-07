@@ -42,3 +42,7 @@ Output Sample
 ## 子问题二
 
 输入输出为文件，要求去掉文件中重复的行。
+
+### 子问题二见 2.cpp
+
+#### 备注：编译环境windows下VS2010. unorderedmap的头文件在不同操作系统的编译器下路径不同，linux下可尝试 #include <tr1/unordered_map>
