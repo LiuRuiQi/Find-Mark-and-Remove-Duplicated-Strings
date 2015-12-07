@@ -19,7 +19,7 @@ int main()
 	int i = 0;
 	
 	while(getline(in,s)) {
-		if (strmap.find(s) != strmap.end()) // != end 就是在strmap中找到该元素
+		if (strmap.find(s) != strmap.end()) // != end means there is a match
 		{
 			++i;
 		}
