@@ -16,7 +16,7 @@ int main()
 	string s;
 	for (int i = 0; i < N; i++) {
 		cin >> s;
-		if (strmap.find(s) != strmap.end()) // != end 就是在strmap中找到该元素
+		if (strmap.find(s) != strmap.end()) // != end means there is a match
 		{
 			int first = strmap[s];
 			if (intmap.find(first) != intmap.end()) {
