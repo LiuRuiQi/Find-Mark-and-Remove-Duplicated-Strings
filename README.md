@@ -17,16 +17,24 @@ Output Description
 Input Sample
 
 6
+
 string
+
 hash
+
 c
+
 hash
+
 string
+
 hash
+
 
 Output Sample
 
 0 4
+
 1 3 5
 
 ### 子问题一见 1.cpp
