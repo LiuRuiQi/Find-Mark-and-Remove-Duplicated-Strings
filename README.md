@@ -49,4 +49,6 @@ Output Sample
 
 ### 子问题二见 2.cpp
 
+####注：在windows中，换行符为"\r\n"， 0x0d0x0a; linux中，换行符为"\n"， 0x0a. 所以供linux使用的文件打开的时候应该用二进制打开方式。
+
 #### 备注：编译环境windows下VS2010. unorderedmap的头文件在不同操作系统的编译器下路径不同，linux下可尝试 #include <tr1/unordered_map>
